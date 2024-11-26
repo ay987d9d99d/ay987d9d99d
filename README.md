@@ -1,12 +1,16 @@
-- 👋 Hi, I’m @ay987d9d99d
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+---
+const title = "About Us";
+const description = "This is the about page of our basic Astro app.";
+---
 
-<!---
-ay987d9d99d/ay987d9d99d is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<html>
+<head>
+    <title>{title}</title>
+    <meta name="description" content={description} />
+</head>
+<body>
+    <h1>{title}</h1>
+    <p>{description}</p>
+    <a href="/">Go back home</a>
+</body>
+</html>
